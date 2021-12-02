@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: cargo
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "19:00"
+      timezone: "Europe/Berlin"
+    open-pull-requests-limit: 10
+    assignees:
+      - "MMKubicki"
