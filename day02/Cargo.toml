@@ -6,6 +6,6 @@ edition = "2021"
 [dependencies]
 common = { path = "../common" }
 miette = { version = "3.3.0", features = ["fancy"] }
-clap = "3.0.10"
+clap = "3.2.8"
 thiserror = "1.0.30"
 nom = "7.1.0"
