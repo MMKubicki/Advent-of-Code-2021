@@ -8,4 +8,4 @@ common = { path = "../common" }
 miette = { version = "3.3.0", features = ["fancy"] }
 clap = "3.0.10"
 thiserror = "1.0.30"
-nom = "7.1.0"
+nom = "7.1.2"
